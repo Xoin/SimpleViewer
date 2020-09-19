@@ -1,0 +1,40 @@
+{
+    "name": "SimpleViewer",
+    "short_name": "SimpleViewer",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0a1525",
+    "description": "A simple comic viwer.",
+    "icons": [
+        {
+            "src": "img/book.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "img/book.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "img/book.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "img/book.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "img/book.png",
+            "sizes": "168x168",
+            "type": "image/png"
+        },
+        {
+            "src": "img/book.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

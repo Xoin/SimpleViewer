@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>SimpleViewer</title>
+    <link rel="stylesheet" href="./viewer.css">
+    <script language="JavaScript" type="text/javascript" src="./js/comics.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/data.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/template.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/viewer.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+        crossorigin="anonymous"></script>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" href="./img/book.png">
+</head>
+
+<body>
+    <div class="header" id="header">SimpleViewer</div>
+    <div class="content" id="content">
+        <div id="information" class="information hide">
+            <div class="sticks">
+                <img id="comicbig" class="comicbig">
+                </img>
+                <div id="buttonclose" class="close">
+                        <i class="fas fa-window-close"></i>
+                    </div>
+                <div id="comicinfo" class="comicinfo">         
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list"></div>
+        <div class="title" id="title"></div>
+        <div class="image" id="image">
+            <img class="prev" id="imageprev" src="">
+
+            </img>
+            <img class="current" onclick="NavNext();" id="imagecurrent" src="">
+
+            </img><img class="currentsecond" onclick="NavNext();" id="currentsecond" src="">
+
+            </img>
+            <img class="next" id="imagenext" src="">
+
+            </img>
+        </div>
+
+        <div class="nav" id="navy">
+            <div class="button prevc" id="NavPrev"><i class="fas fa-angle-left"></i></div>
+            <div class="button home" id="NavHome"><span class="fas fa-home"></span></div>
+            <div class="button progress" id="progress"></div>
+            <div class="button double" id="DoublePage"><span class="fas fa-book-open"></span></div>
+            <div class="button nextc" id="NavNext"><span class="fas fa-angle-right"></span></div>
+        </div>
+    </div>
+    <div class="footer" id="footer"></div>
+</body>
+
+</html>
