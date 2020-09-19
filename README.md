@@ -20,10 +20,13 @@ SimpleViewer is a comic viewer written in JavaScript. Most comic viewers have ho
 ### Folders
 You put the comics in named folders. Every numbered folder will count as a volume of the comic. Nonnumeric folders are counted as grouping, folders under it should be numeric.
 
+
 Comics/Pepper and Carrot/1/
+
 Comics/Pepper and Carrot/The spin off/1/
 
 The files need to be jpg, png or gif. Viewer.js can be edited to remove or add more. The names are numeric 1.png...222.png.
+
 The Thumb folder follows the same rules but thumbnails also have _thumb in its name.
 
 
