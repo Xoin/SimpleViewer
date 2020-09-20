@@ -33,6 +33,11 @@ The files need to be jpg, png or gif. Viewer.js can be edited to remove or add m
 The Thumb folder follows the same rules but thumbnails also have _thumb in its name.
 
 
+Thumb/Comics/Pepper and Carrot/1/1_thumb.png
+
+Thumb/Comics/Pepper and Carrot/The spin off/1/1_thumb.png
+
+
 ### Database
 
 A comic follows the below format.
