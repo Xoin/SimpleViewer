@@ -5,17 +5,17 @@ SimpleViewer is a comic viewer written in JavaScript. Most comic viewers have ho
 ![Image of SimpleViewer frontpage with item selected and two reading items in the background](https://i.imgur.com/4BtfdVL.png)
 
 ## Features
-- The database it uses is just a JavaScript, you can edit this by hand or generate the right format.
+- The database it uses is just a JavaScript, you can edit this by hand or generate the right format. So you can just keep it on your filesystem or host it with the benefit of it working as a web app.
 - It stores your comic book progress in a cookie.
 - It preloads the previous and next page images, even for the next volume.
 - The database can indicate which page should be used as the cover.
 - Spinoffs can be grouped under the main series.
-- While you never leave the same page you can link or bookmark pages.
+- While you never leave the same page you can link or bookmark pages. It will only save progress on page change.
 - It list the comics you are reading at the top.
 - It will always request jpg, png and gif. It does this because file types are not stored in the database.
-- Setting it up is pretty easy.
-- It has keyboard navigation.
+- It has keyboard navigation. (Arrow left, Arrow right, spacebar to go home)
 - Displaying double pages, sort of.
+- It should just scale fine
 - Lots of uncommented code!
 
 ## Database and folders
