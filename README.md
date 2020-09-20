@@ -2,6 +2,8 @@
 
 SimpleViewer is a comic viewer written in JavaScript. Most comic viewers have horrible UIs or are linked to a platform. SimpleViewer will just work in any modern browser with JavaScript.
 
+![Image of SimpleViewer frontpage with item selected and two reading items in the background](https://i.imgur.com/4BtfdVL.png)
+
 ## Features
 - The database it uses is just a JavaScript, you can edit this by hand or generate the right format.
 - It stores your comic book progress in a cookie.
@@ -14,6 +16,7 @@ SimpleViewer is a comic viewer written in JavaScript. Most comic viewers have ho
 - Setting it up is pretty easy.
 - It has keyboard navigation.
 - Displaying double pages, sort of.
+- Lots of uncommented code!
 
 ## Database and folders
 
