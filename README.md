@@ -5,9 +5,9 @@ SimpleViewer is a comic viewer written in JavaScript. Most comic viewers have ho
 ![Image of SimpleViewer frontpage with item selected and two reading items in the background](https://i.imgur.com/4BtfdVL.png)
 
 ## Features
-- The database it uses is just a JavaScript, you can edit this by hand or generate the right format. So you can just keep it on your filesystem or host it with the benefit of it working as a web app.
-- It stores your comic book progress in a cookie.
-- It preloads the previous and next page images, even for the next volume.
+- The database it uses is just a JavaScript file, you can edit this by hand or generate the right format. So you can just keep it on your filesystem or host it with the benefit of it working as a web app.
+- It stores your comic book progress in a local storage.
+- It preloads the previous and next page images.
 - The database can indicate which page should be used as the cover.
 - Spinoffs can be grouped under the main series.
 - While you never leave the same page you can link or bookmark pages. It will only save progress on page change.
@@ -24,9 +24,9 @@ SimpleViewer is a comic viewer written in JavaScript. Most comic viewers have ho
 You put the comics in named folders. Every numbered folder will count as a volume of the comic. Nonnumeric folders are counted as grouping, folders under it should be numeric.
 
 
-Comics/Pepper and Carrot/1/
+Comics/Pepper and Carrot/1/1.jpg
 
-Comics/Pepper and Carrot/The spin off/1/
+Comics/Pepper and Carrot/The spin off/1/1.jpg
 
 The files need to be jpg, png or gif. Viewer.js can be edited to remove or add more. The names are numeric 1.png...222.png.
 
@@ -117,4 +117,4 @@ myMedia = {
 }
 ```
 
-Deleting it from the database doesn't mean it removes it from the cookies.
+Deleting it from the database doesn't mean it removes it from the local storage.
